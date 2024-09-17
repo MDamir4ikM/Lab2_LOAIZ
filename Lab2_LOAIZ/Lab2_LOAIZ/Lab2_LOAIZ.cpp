@@ -67,8 +67,15 @@ int main()
 
 	for (int i = 0; i < SIZE; i++)
 	{
-		mass[i] = ubiv;
-		ubiv--;
+		if (i < (SIZE / 2))
+		{
+			mass[i] = i;
+		}
+		else
+		{
+			mass[i] = ubiv;
+			ubiv--;
+		}
 	}
 
 	start = clock();
@@ -80,8 +87,15 @@ int main()
 
 	for (int i = 0; i < SIZE; i++)
 	{
-		mass[i] = ubiv;
-		ubiv--;
+		if (i < (SIZE / 2))
+		{
+			mass[i] = i;
+		}
+		else
+		{
+			mass[i] = ubiv;
+			ubiv--;
+		}
 	}
 
 	start = clock();
