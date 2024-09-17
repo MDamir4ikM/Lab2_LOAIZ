@@ -1,0 +1,3 @@
+﻿  Lab2_LOAIZ.cpp
+C:\Users\User\Desktop\Логика и основы алгоритмизации\ГитДляЛаб\Lab2_LOAIZ\Lab2_LOAIZ\Lab2_LOAIZ\Lab2_LOAIZ\Lab2_LOAIZ.cpp(59,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Lab2_LOAIZ.vcxproj -> C:\Users\User\Desktop\Логика и основы алгоритмизации\ГитДляЛаб\Lab2_LOAIZ\Lab2_LOAIZ\Lab2_LOAIZ\x64\Debug\Lab2_LOAIZ.exe
