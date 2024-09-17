@@ -62,11 +62,13 @@ int main()
 
 	const int SIZE = 100000;
 	int mass[SIZE];
+	int ubiv = SIZE;
 	double vremya;
 
 	for (int i = 0; i < SIZE; i++)
 	{
-		mass[i] = i;
+		mass[i] = ubiv;
+		ubiv--;
 	}
 
 	start = clock();
@@ -78,7 +80,8 @@ int main()
 
 	for (int i = 0; i < SIZE; i++)
 	{
-		mass[i] = i;
+		mass[i] = ubiv;
+		ubiv--;
 	}
 
 	start = clock();
