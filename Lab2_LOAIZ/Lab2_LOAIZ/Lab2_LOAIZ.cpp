@@ -60,24 +60,25 @@ int main()
 
 	clock_t start, end;
 
-	const int SIZE = 10000;
+	const int SIZE = 100000;
 	int mass[SIZE];
 	double vremya;
 
 	for (int i = 0; i < SIZE; i++)
 	{
-		mass[i] = rand() % 100 + 1;
+		mass[i] = i;
 	}
 
 	start = clock();
 	qs(mass, 0, SIZE-1);
 	end = clock();
+
 	vremya = ((double)end - (double)start) / CLOCKS_PER_SEC;
 	cout << "Время выполнения программы для быстрой сортировки: " << vremya;
 
 	for (int i = 0; i < SIZE; i++)
 	{
-		mass[i] = rand() % 100 + 1;
+		mass[i] = i;
 	}
 
 	start = clock();
@@ -85,7 +86,7 @@ int main()
 	end = clock();
 
 	vremya = ((double)end - (double)start) / CLOCKS_PER_SEC;
-	cout << "\nВремя выполнения программыдля сортировки Шелла: " << vremya;
+	cout << "\nВремя выполнения программы для сортировки Шелла: " << vremya;
 
 	return 0;
 }
